@@ -1,0 +1,10 @@
+version: '3'
+services:
+    web:
+        container_name: nginxvhost
+        ports:
+            - "6161:80"
+        volumes:
+            - "$PWD/volumenes/84-volumen:/usr/share/nginx/html"
+        image: nginx
+

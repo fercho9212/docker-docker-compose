@@ -1,0 +1,4 @@
+172.17.0.1 - - [01/May/2020:22:29:49 +0000] "GET / HTTP/1.1" 200 612 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36" "-"
+172.17.0.1 - - [01/May/2020:22:29:49 +0000] "GET /robots.txt HTTP/1.1" 404 556 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36" "-"
+172.17.0.1 - - [01/May/2020:22:29:50 +0000] "GET /favicon.ico HTTP/1.1" 404 556 "http://localhost:85/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36" "-"
+172.17.0.1 - - [01/May/2020:22:42:42 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36" "-"

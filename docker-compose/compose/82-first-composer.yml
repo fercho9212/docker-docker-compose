@@ -1,0 +1,11 @@
+#obligatorias
+version: '3'
+services:
+    web:
+        container_name: nginx1
+        ports:
+            - "95:80"
+        image: nginx
+#opcionales
+#volumnes:
+#networks:

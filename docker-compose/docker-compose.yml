@@ -1,0 +1,7 @@
+version: '3'
+services:
+    web:
+        container_name: nginx1  #nombre del contenedor
+        ports:
+            - "9090:80" #puerto del comentedor     
+        image: nginx    #nginx

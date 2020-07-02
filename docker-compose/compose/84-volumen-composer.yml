@@ -1,0 +1,12 @@
+version: '3'
+services:
+    web:
+        container_name: nginxv
+        ports:
+            - "6060:80"
+        volumes:
+            - "vol2:/usr/share/nginx/html"
+        image: nginx
+volumes:
+    vol2:
+
